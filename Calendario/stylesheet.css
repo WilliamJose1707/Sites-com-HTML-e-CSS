@@ -1,0 +1,116 @@
+/*William José RGM:16282477 , Ciência da Computação
+                                             _________      ___   ____
+|    |  |  |   |    |    /\    |\    /|          |   ___   |     |
+| /\ |  |  |   |    |   /__\   | \  / |          |  |   |  |__   |____
+|/  \|  |  |   |    |  /    \  |  \/  |      |   |  |   |     |  |
+|    |  |  |__ |__  | /      \ |      |      |___|  |___|  ___|  |____
+*/
+body {
+     font-family:cursive;
+     font-size: 15pt;
+ }
+ 
+ table.calendary {
+     color: #312720;
+     border-spacing: 0;
+     border: 3px solid #000000;
+     border-radius: 0 0 25px 25px;
+ }
+ 
+ tr:nth-child(odd) {
+     background-color: #daf0fc;
+ }
+ 
+ tr:nth-child(odd) {
+     background-color: #eafd00;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #58c1f8
+ }
+ 
+ tr:last-child>td:first-child {
+     border-radius: 0 0 0 22px;
+ }
+ 
+ tr:last-child>td:last-child {
+     border-radius: 0 0 22px 0;
+ }
+ 
+ tr>td:first-child,
+ tr>td:last-child {
+     color: #ff1010;
+ }
+ 
+ tr:first-child>td:first-child {
+     color: #b9b8b8;
+ }
+ 
+ tr:last-child>td:last-child {
+     color: #b9b8b8;
+ }
+ 
+ td:nth-child(even) {
+     border-left: 2px solid #000;
+     border-right: 2px solid #000;
+ }
+ 
+ .calendary caption {
+     text-transform: uppercase;
+     background-color: #2a2a6f;
+     color: #ffffff;
+     border-radius: 25px 25px 0 0;
+ }
+ 
+ .calendary th,
+ .calendary td {
+     margin: 4px;
+     padding-bottom: 4px;
+     border-top: 3px solid #000
+ }
+ 
+ th {
+     text-align: center;
+     background: #0ef80e;
+ }
+ 
+ .calendary td {
+     width: 60px;
+     height: 60px;
+     vertical-align: center;
+     text-align: center;
+ }
+ 
+ .feriado {
+     background-color: #0ef8e6;
+ }
+ 
+ .old {
+     background-color: #ced0d0;
+     color: #b9b8b8;
+ }
+ 
+ span {
+     display: none;
+     text-align: center;
+     color: #080700;
+     font-size: 7pt;
+ }
+ 
+ td:active>span {
+     display:block;
+ }
+ 
+ .myniver:hover {
+     color: #ff0000;
+ }
+.colorniver{
+color:#ff00eb;
+}
+
+.rodap{ 
+
+font-family:monospace;
+    font-size: 18pt;
+color: #00ff0a;}
+

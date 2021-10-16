@@ -1,0 +1,76 @@
+BODY {
+    font-family: verdana;
+    font-size: 12pt;
+    background-color: #e2a85a;
+}
+
+#principal {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid #0f0;
+    background-color: #fff;
+}
+
+#banner {
+    height: 220px;
+}
+
+footer {
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav a:link,
+nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu {
+    background-color: #0c390e;
+    height: 25px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+a {
+    padding: 5px;
+    line-height: 25px;
+}
+
+.box {
+    width: 380px;
+    height: 250px;
+    border: 2px solid #0f0;
+    text-align: center;
+    margin: 8px;
+    padding: 2px;
+    float: left;
+    box-sizing: border-box;/*permite ultrapassar o tamanho da borda*/ 
+}
+
+#cad{
+    
+    text-align: center;
+}
+
+.img_game {
+    text-align: center;
+    }
+/* se achar uma div depois dentro do img game vai justicficar */
+div.img_game>img{
+  width: 300px;
+}
+div>p{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+article>div{
+    padding: 10px;
+}

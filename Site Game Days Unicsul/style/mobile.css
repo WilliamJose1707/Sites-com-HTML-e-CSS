@@ -1,0 +1,56 @@
+/******************************
+CSS MOBILE
+******************************/
+
+#topo {
+    height: 100%;
+}
+
+#topo img {
+    width: 75%;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    margin-left: -200%;
+}
+
+.menu ul {
+    flex-direction: column;
+    /*background: url(../imagens/bg.jpg);*/
+    background: #777
+}
+
+.menu li {
+    text-align: left;
+    padding-left: 15px;
+}
+
+#btn-menu:checked ~ .menu {
+    margin: 0;
+    transition: 0.5s all;
+}
+
+#btn-menu:checked ~ label {
+    width: 90%;
+    transition: 1.5s 0.5s;
+}
+
+label {
+    display: block;
+    width: 30px;
+    padding: 10px;
+    background: #fff;
+}
+
+tbody td {
+    font-size: 0.8em;
+}
+.personagem img{
+    display: inline-block;
+}
+#nav ul li {
+    width: auto;
+    max-width: 100%;
+}

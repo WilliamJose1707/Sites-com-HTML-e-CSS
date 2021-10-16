@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+    <style type="text/css">
+        @-webkit-keyframes anima {
+            0% {
+                background-color: #000;
+            }
+            50% {
+                background-color: #f00;
+            }
+            100% {
+                background-color: #0066cc;
+            }
+        }
+        
+        body {
+            background-color: #000;
+            -webkit-animation: anima 5s linear 2s infinite alternate;
+        }
+        
+        #principal {
+            width: 815px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        
+        #topo,
+        #base {
+            height: 155px;
+            width: 100%;
+            margin-left: 5px;
+            clear: both;
+        }
+        
+        #topo {
+            padding-top: 10px;
+        }
+        
+        #base {
+            padding-bottom: 10px;
+        }
+        
+        #meio {
+            width: 100%;
+            clear: both;
+        }
+        
+        #esq,
+        #dir {
+            width: 150px;
+            height: auto;
+            float: left;
+        }
+        
+        #esq {
+            margin-left: 5px;
+        }
+        
+        #centro {
+            width: 450px;
+            background-color: #fff;
+            height: auto;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+            float: left;
+                   }
+        
+        .imgH,
+        .imgV {
+            padding: 5px;
+            width: 140px;
+            height: 140px;
+            margin: 5px 5px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #000;
+            float: left;
+            
+        }
+        
+        .coluna {
+            text-align:justify;
+            -webkit-column-gap: 60px;
+            -webkit-column-rule: 3px inset #000;
+            -webkit-columns: 100px 2;
+        }
+        
+        #centro img{
+             box-shadow: 10px 10px 15px #ffff00;
+            margin-bottom: 15px;
+            border-radius: 18px;
+        } 
+        
+        .imgV{
+            margin-top: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <div id="topo">
+            <div class="imgH">
+                <img src="images/carroslateral/car1.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car2.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car3.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car4.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car5.png">
+            </div>
+        </div>
+        <div id="meio">
+            <div id="esq">
+
+                <div class="imgV">
+                    <img src="images/carroslateral/car6.png">
+                </div>
+                <div class="imgV">
+                    <img src="images/carroslateral/car7.png">
+                </div>
+                <div class="imgV">
+                    <img src="images/carroslateral/car8.png">
+                </div>
+
+            </div>
+            <div id="centro">
+
+                <h3> Camaro</h3>
+                <img src="images/carrao.jpg" width="300">
+                <div class="coluna">
+                    É impossível passar desapercebido dirigindo um Camaro. A aparência forte e robusta da traseira e dianteira com design renovado produz uma percepção mais larga, baixa e contemporânea. São tantos detalhes que fica impossível perceber todos ao primeiro olhar, mas o conjunto final de design e performance do Camaro 2014 causa fortes emoções em qualquer um que atravesse o seu caminho.
+                    <br/> Motorista e passageiro serão acomodados no dual cockpit que proporciona uma posição confortável em qualquer trajeto. O Camaro também oferece um sistema de entretenimento com tecnologia de ponta: o Chevrolet MyLink.
+                    <br/> O Camaro 2014 recebeu atualizações de design e tecnologia, mantendo o mesmo DNA esportivo que o tornou um ícone automobilístico.
+
+
+                </div>
+
+            </div>
+            <div id="dir">
+
+                <div class="imgV">
+                    <img src="images/carroslateral/car9.png">
+                </div>
+                <div class="imgV">
+                    <img src="images/carroslateral/car10.png">
+                </div>
+                <div class="imgV">
+                    <img src="images/carroslateral/car11.png">
+                </div>
+            </div>
+        </div>
+        <div id="base">
+            <div class="imgH">
+                <img src="images/carroslateral/car12.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car13.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car14.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car15.png">
+            </div>
+            <div class="imgH">
+                <img src="images/carroslateral/car16.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
