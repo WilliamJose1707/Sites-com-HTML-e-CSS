@@ -1,0 +1,221 @@
+body {
+    background-color: #FFF;
+    /* Firefox  */
+    background: -moz-linear-gradient(#ffffff, #faca73);
+    /* Safari , Chrome  */
+    background: -webkit-linear-gradient(#ffffff, #faca73);
+    /* Opera */
+    background: -o-linear-gradient(#ffffff, #faca73);
+    /* Explorer */
+    background: -ms-linear-gradient(#ffffff, #faca73);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/*div do corpo */
+
+#principal {
+    width: 800px;
+    margin: 0 auto;
+    border: thin #006600 solid;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* navegacao topo*/
+
+#menu {
+    padding: 4px;
+    display: inline-block;
+    width: 99%;
+    background-color: #068010;
+}
+
+/*header*/
+
+#topo {
+    width: 100%;
+    background-image: url('../imagens/banner.png');
+    background-repeat: no-repeat;
+}
+#banner {
+    height: 90px;
+}
+
+/*formulario*/
+
+form {
+    font-size: 9pt;
+}
+#acesso {
+    margin-bottom: 3px;
+    float: right;
+    color: #fff;
+}
+#acesso img {
+    float: right;
+}
+#esq {
+    margin-left: 5px;
+    float: left;
+}
+#esq a {
+    color: #fff;
+    text-decoration: none;
+}
+#esq a:hover {
+    color: #000;
+}
+
+/*div da esquerda */
+
+#barraesquerda {
+    background-color: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 0 0 10 10;
+    box-shadow: 10 10 10 #cccccc;
+    margin: 10px;
+    float: left;
+}
+#propag {
+    background-color: #FFFF00;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: thin #006600 solid;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 10px 10px 10px #000;
+    margin: 10px;
+    float: left;
+}
+#propag span {
+    color: #f40909;
+    text-align: center;
+}
+#menulat .item {
+    display: block;
+    padding: 3px;
+    border-bottom: 2px solid #006600;
+}
+#menulat {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border: thin #006600 solid;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 10px #000;
+    margin: 10px;
+    float: left;
+}
+#menulat a:link {
+    color: #ff0000;
+    text-decoration: none;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+#menulat a:visited {
+    color: #ff0000;
+}
+#menulat a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+#rodape {
+    width: 100%;
+    clear: both;
+    height: 20px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 3px;
+    color: #000;
+    font-size: 9pt;
+    border-top: 2px solid #006600;
+}
+
+/*conteudo*/
+
+.destaque {
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+.destaquet {
+    text-align: center;
+    color: #e50a0a;
+}
+#barraesquerda {
+    width: 200px;
+    float: left;
+}
+
+/*animacao*/
+
+.promoanimada {}
+#menula {
+    width: 500px;
+    border: 2px solid #CCC;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.simples {
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+}
+.simples li {
+    display: inline ;
+}
+.simples li a:link {
+    color: #fff;
+    text-decoration: none;
+}
+.simples li a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+simples lia:houver {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+@-webkit-keyframes promo {
+    from {
+        color: #F00;
+        font-size: 16pt;
+        background-color: #ffffcc;
+    }
+    to {
+        color: #00f;
+        font-size: 18pt;
+        background-color: #FFFF66;
+    }
+}
+.destaquet {
+    margin-left: 250px;
+    margin-right: 50px;
+    color: #f00;
+    font-size: 16pt;
+    line-height: 30px;
+    -webkit-animation: promo 1s infinite alternate;
+}
+@-webkit-keyframes promoan {
+    from {
+        left: 25px;
+    }
+    to {
+        left: 70px;
+    }
+}
+.promoanimada {
+    position: relative;
+    text-align: left;
+    -webkit-animation: promoan 2s infinite alternate;
+}
+
+.botao{
+    margin: 0 0 -7px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Restaurante</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+    <style>
+        #fundo {
+            border: #cccccc solid;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 20px;
+            padding-top: 10px;
+            width: 500px;
+            height: 470px;
+            float: left;
+            box-shadow: 5px 5px 5px #000;
+            background-color: #000;
+        }
+        
+        #dados {
+            margin-left: 60px;
+            background-color: #000;
+        }
+        
+        #dados label {
+            color: #fff;
+            text-align: center;
+        }
+        
+        #eml {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <header id="topo">
+            <img src="imagens/banner.png" width="100%" id="banner">
+            <nav id="menu">
+                <div id="esq">
+                    <span class="item"> <a href="index.html"> HOME ::</a></span>
+                    <span class="item"> <a href="contato.html">  Contato :: </a></span>
+                    <span class="item"><a href="cadastro.html"> Cadastro </a></span>
+                </div>
+                <div id="acesso">
+                    <label for="txt">e-mail:</label>
+                    <input type="texto" size="5" id="txt">
+                    <label for="senha">senha:</label>
+                    <input type="password" size="5" id="senha">
+                    <input class="botao" type="image" src="imagens/gnome_session_logout.png">
+                </div>
+            </nav>
+        </header>
+        <div id="barraesquerda">
+            <nav id="menulat">
+                <span class="item"> <a href="comidas/alema.html"> Alemã</a></span>
+                <span class="item"> <a href="comidas/argentina.html">  Argentina </a></span>
+                <span class="item"><a href="comidas/italiana.html"> Italiana</a></span>
+                <span class="item"><a href="comidas/japonesa.html"> Japonesa</a></span>
+            </nav>
+            <aside id="propag">
+                <span>Promoção</span>
+                <br />Compre uma comida Árabe e leve o refrigerante de graça.
+            </aside>
+        </div>
+        <div id="fundo">
+            <section id="dados">
+                <label for="nome">Nome:</label>
+                <input type="text" size="40" id="nome">
+                <br />
+                <label for="email" id="eml"> E-mail:</label>
+                <input type="email" size="20" id="email">
+                <br />
+                <label for="assunto">Assunto:</label>
+                <input type="text" size="40" id="assunto">
+                <br />
+                <label for="mens">Mensagem:</label>
+                <br />
+                <textarea rows="20" cols="50" id="mens"> </textarea>
+                <br />
+                <input type="submit" value="Enviar">
+            </section>
+        </div>
+
+        <footer id="rodape">
+            <em>&copy;William José RGM:16282477, Ciência da Computação.</em>
+        </footer>
+    </div>
+</body>
+
+</html>
